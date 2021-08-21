@@ -50,9 +50,6 @@ function App() {
               <Suspense fallback={<GlobalLoading />}>
                 <Switch>
                   <IPAPage/>
-                  <Route>
-                    <NotFoundPage />
-                  </Route>
                 </Switch>
               </Suspense>
 
