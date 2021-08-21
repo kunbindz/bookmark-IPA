@@ -24,10 +24,10 @@
 	},
 	"scripts": {
 		"start": "SET PORT=8888 && react-scripts start",
-		"build": "react-scripts build && ./auto-deploy.cmd",
+		"build": "react-scripts build",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
-		"deploy": "react-scripts build && ./auto-deploy.cmd"
+		"deploy": "react-scripts build"
 	},
 	"eslintConfig": {
 		"extends": [
