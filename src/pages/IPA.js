@@ -17,18 +17,10 @@ function IPAPage() {
       <Consonants />
 
       {/* ipa chart */}
-      <h2 className="dyno-title">4. Biểu đồ IPA (IPA Chart)</h2>
+      <h2 className="dyno-title">4. Cấu trúc IPA (structures of IPA)</h2>
       <div
         className="w-100 my-10 t-center"
         style={{ maxWidth: 450, margin: 'auto' }}>
-        <img src={ipaChartSrc} alt="IPA Chart" className="w-100 mb-4" />
-        <a
-          className="dyno-link"
-          href="https://en.wikipedia.org/wiki/International_Phonetic_Alphabet"
-          target="_blank"
-          rel="noreferrer">
-          Nguồn: Wikipedia
-        </a>
         <img src={structuresofIPA} alt="structures of IPA" className="w-100 mb-4" />
         <a
           className="dyno-link"
