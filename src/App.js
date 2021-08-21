@@ -7,6 +7,7 @@ import routerConfig from 'configs/routerConfig';
 import theme from 'configs/theme';
 import useTheme from 'hooks/useTheme';
 import useVoice from 'hooks/useVoice';
+import IPAPage from 'pages/IPA';
 import NotFoundPage from 'pages/NotFound';
 import React, { Suspense, useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
@@ -48,7 +49,7 @@ function App() {
               {/* routes */}
               <Suspense fallback={<GlobalLoading />}>
                 <Switch>
-                  {renderRoutes(routes)}
+                  <IPAPage/>
                   <Route>
                     <NotFoundPage />
                   </Route>
